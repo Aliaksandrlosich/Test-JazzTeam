@@ -1,6 +1,6 @@
 {
   "name": "jazzteamTest",
-  "version": "0.0.10",
+  "version": "0.2.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Aliaksandrlosich/Test-JazzTeam/issues"
   },
-  "homepage": "https://github.com/Aliaksandrlosich/Test-JazzTeam#readme"
+  "homepage": "https://github.com/Aliaksandrlosich/Test-JazzTeam#readme",
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }
