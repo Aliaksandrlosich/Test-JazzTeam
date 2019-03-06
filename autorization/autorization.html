@@ -24,10 +24,10 @@
 
 		<p class="text_autorizator">(Do not forget to take into account the registers in the login)</p>
 
-		<form class="form_box">
-			<input class="input_name input" id="input_name" type="text" name="login" placeholder="Login">
-			<input class="input_password input" id="input_password" type="password" placeholder="Password">
-			<button class="submit input" id="submit">Submit</button>
+		<form class="form_box" onsubmit="return validation()">
+			<input class="input_name input" id="input_name" type="text" name="input_name" placeholder="Login">
+			<input class="input_password input" id="input_password" name ="input_password" type="password" placeholder="Password">
+			<input class="submit input" id="submit" type="submit" value="Submit">
 		</form>
 	</section>
 
@@ -40,5 +40,6 @@
 	        <p class="text_header">|@2019</p>
         </section>
     </footer>
+    <script src="./js/autorization.js"></script>
 </body>
 </html>
