@@ -3,7 +3,7 @@ body {
    margin: 0;
   
    background-image: url(../img/background.jpg);
-   background-size: 100%;
+   background-size: 100% 100%;
    background-repeat: no-repeat;
 }
 /*header*/
@@ -25,13 +25,14 @@ body {
 
 .navigation_link {
     display: block;
+    margin-right: 10px; 
     height: 90px;
     line-height: 90px;
 
     font-family: Arial;
     font-size: 18px;
     font-style: italic;
-    color: #993322;
+    color: #ffffff;
 
     text-decoration:none;
 }
@@ -142,4 +143,31 @@ body {
         width: 200px;
         height: 50px;
     }
+}
+
+@media (max-width: 1024px) {
+     .autorizatorBlock {
+        height: 380px;
+        width: 500px;
+        margin-bottom: 120px; 
+    }
+    
+    .text {
+        font-size: 18px;
+    }
+
+     .input {
+        border: 6px solid #b824a4;
+        width: 250px;
+        height: 40px;
+        font-size: 16px;
+        margin: 20px; 
+     }
+
+    .submit{
+        width: 150px;
+        height: 50px;
+    }
+}
+
 }

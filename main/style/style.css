@@ -3,7 +3,7 @@ body {
    margin: 0;
   
    background-image: url(../img/background.jpg);
-   background-size: 100%;
+   background-size: 100% 100%;
    background-repeat: no-repeat;
 }
 
@@ -26,13 +26,14 @@ body {
 
 .navigation_link {
     display: block;
+    margin-right: 10px;
     height: 90px;
     line-height: 90px;
 
     font-family: Arial;
     font-size: 18px;
     font-style: italic;
-    color: #993322;
+    color: #fff;
 
     text-decoration:none;
 }
@@ -91,7 +92,6 @@ body {
 
 .footer_info {
     height: 50px;
-    width: 1300px;
     margin:0 auto;
     padding: 0 auto;
     display: flex;
@@ -125,5 +125,11 @@ body {
 
     .text_quote {
         font-size:20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+        height: 500px;
     }
 }

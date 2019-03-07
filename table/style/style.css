@@ -3,7 +3,7 @@ body {
    margin: 0;
   
    background-image: url(../img/background.jpg);
-   background-size: 100%;
+   background-size: 100% 100%;
    background-repeat: no-repeat;
 }
 
@@ -26,13 +26,14 @@ body {
 
 .navigation_link {
     display: block;
+    margin-right: 10px;
     height: 90px;
     line-height: 90px;
 
     font-family: Arial;
     font-size: 18px;
     font-style: italic;
-    color: #993322;
+    color: #ffffff;
 
     text-decoration:none;
 }
@@ -149,4 +150,13 @@ tr:first-child ,td:first-child {
     .input {
         font-size: 24px;
     }
+}
+
+@media (max-width: 1024px) {
+    table {
+        height: 470px;
+        width: 750px;
+        font-size:22px;
+    }
+
 }
