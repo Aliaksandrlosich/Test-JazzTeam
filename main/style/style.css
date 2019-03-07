@@ -3,8 +3,8 @@ body {
    margin: 0;
   
    background-image: url(../img/background.jpg);
+   background-size: 100%;
    background-repeat: no-repeat;
-   background-position: top;
 }
 
 /*header*/
@@ -52,7 +52,7 @@ body {
 /*main*/
 .main {
     max-width: 1300px;
-    height: 850px;
+    height: 600px;
     margin: 0 auto;
 }
 
@@ -65,7 +65,7 @@ body {
 
 .quote {
     max-width: 400px;
-    margin-top:180px; 
+    margin-top:160px; 
 
     font-style: italic;
     font-family: Geneva;
@@ -76,11 +76,11 @@ body {
 .text_quote {
     max-width: 500px;
     max-height: 300px;
-    margin-top:100px;
+    margin-top:50px;
 
     font-family: Verdana, sans-serif;;
     word-spacing: 6px;
-    line-height: 110%; 
+    line-height: 105%; 
 
 }
 
@@ -99,10 +99,31 @@ body {
     align-items: center;
 }
 
-.text_header {
+.text_footer {
     padding-right: 30px;
 
     user-select: none;
     font-size: 10px;
     color: #222222;
+}
+
+@media (min-width: 1920px) {
+    .navigation_link {
+        font-size: 22px;
+    }
+    .footer_info {
+        height: 70px;
+    }
+
+    .text_footer {
+        font-size: 16px;
+    }
+
+    .main {
+        height: 900px;
+    }
+
+    .text_quote {
+        font-size:20px;
+    }
 }

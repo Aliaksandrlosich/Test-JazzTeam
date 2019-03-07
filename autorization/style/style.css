@@ -3,8 +3,8 @@ body {
    margin: 0;
   
    background-image: url(../img/background.jpg);
+   background-size: 100%;
    background-repeat: no-repeat;
-   background-position: top;
 }
 /*header*/
 .header {
@@ -73,20 +73,13 @@ body {
     padding: 4px 28px;
     margin: 40px; 
     border: 3px solid #b824a4;
+    width: 300px;
+    height: 40px;
 
     color: #eeeeee;
  }
 
- .input_name {
-    width: 300px;
-    height: 40px;
- }
-
- .input_password {
-    width: 300px;
-    height: 40px;
- }
-
+ 
 .submit{
     width: 150px;
     height: 30px;
@@ -111,10 +104,43 @@ body {
     align-items: center;
 }
 
-.text_header {
+.text_footer {
     padding-right: 30px;
 
     user-select: none;
-    font-size: 10px;
+    font-size: 12px;
     color: #222222;
+}
+
+@media (min-width: 1920px) {
+    .navigation_link {
+        font-size: 22px;
+    }
+    .footer_info {
+        height: 70px;
+    }
+
+    .text_footer {
+        font-size: 16px;
+    }
+
+    .autorizatorBlock {
+        margin-bottom: 320px;
+    }
+    
+    .text {
+        font-size: 24px;
+    }
+
+     .input {
+        border: 6px solid #b824a4;
+        width: 400px;
+        height: 45px;
+        font-size: 20px;
+     }
+
+    .submit{
+        width: 200px;
+        height: 50px;
+    }
 }
