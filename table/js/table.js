@@ -18,9 +18,9 @@ INPUTS.forEach(function(elm) {
     };
     var getter = function() {
         let value = localStorage[elm.id] || "";
-        if (value.charAt(0) == "=") {
-            with (DATA) return eval(value.substring(1));
-        } else { return isNaN(parseFloat(value)) ? value : parseFloat(value); }
+        
+
+ return isNaN(parseFloat(value)) ? value : parseFloat(value); 
     };
     Object.defineProperty(DATA, elm.id, {get:getter});
     Object.defineProperty(DATA, elm.id.toLowerCase(), {get:getter});
