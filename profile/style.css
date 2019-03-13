@@ -1,5 +1,6 @@
 @import "../style/footer.css";
 @import "../style/header.css";
+
 body {
    padding: 0;
    margin: 0;
@@ -8,6 +9,7 @@ body {
    background-size: 100% 100%;
    background-repeat: no-repeat;
 }
+
 /*profile*/
 .profile {
   max-width: 1300px;
