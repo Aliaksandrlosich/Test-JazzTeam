@@ -3,7 +3,7 @@ for (let i = 0; i < 7; i++) {
     let row = document.querySelector("table").insertRow(-1);
     for (let j = 0; j < 7; j++) {
         let letter = String.fromCharCode("b".charCodeAt(0)+j-1);
-        row.insertCell(-1).innerHTML = i && j ? "<input class = input id='"+ letter+i +"'/>" : i || j;
+        row.insertCell(-1).innerHTML = i && j ? "<input type= 'text' class = 'input' id='"+ letter+i +"'/>" : i || j;
     }
 }
 
@@ -14,7 +14,7 @@ INPUTS.forEach(function(elm) {
     };
     elm.onblur = function(e) {
         localStorage[e.target.id] = e.target.value;
-        computeAll();
+        
     };
     var getter = function() {
         let value = localStorage[elm.id] || "";
