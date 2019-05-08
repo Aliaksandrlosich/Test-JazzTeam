@@ -1,0 +1,92 @@
+@import "../style/footer.css";
+@import "../style/header.css";
+@import "../style/body.css";
+
+.input {
+    border: none;
+    width: 250px;
+    height: 100px;
+    font-size: 18px;
+    padding: 2px;
+    background-color: rgb(0, 0, 0, 0.10);
+}
+
+.input:hover {
+    background-color: #bbbbbb;
+}
+
+.input:focus {
+    background-color: #ffcaff;
+}
+
+table {
+    position: relative;
+    display: block;
+    height: 500px;
+    width: 600px;
+    overflow: scroll;
+    margin: 0 auto;
+    border-collapse: collapse;  
+}
+
+td {
+    border: 1px solid #999;
+    padding: 0;
+}
+
+tr:first-child ,td:first-child {
+    background-color: rgb(0, 0, 0, 0.40);
+    min-width: 100px;
+    min-height: 100px;
+}
+/*contact*/
+.contact {
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.contact_text {
+    font-style: italic;
+    font-family: Times New Roman;
+    text-align: center;
+}
+
+@media (min-width: 1920px) {
+    .navigation_link {
+        font-size: 22px;
+    }
+    .footer_info {
+        height: 70px;
+    }
+
+    .text_footer {
+        font-size: 16px;
+    }
+
+    .footer {
+        margin-top:35px;
+    }
+
+    .contact_text{
+        font-size: 25px;
+    }
+
+    table {
+        height: 750px;
+        width: 850px;
+        font-size:24px;
+    }
+    .input {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1024px) {
+    table {
+        height: 470px;
+        width: 750px;
+        font-size:22px;
+    }
+
+}

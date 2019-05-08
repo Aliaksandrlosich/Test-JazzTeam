@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Login</title>
+
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<header class="header">
+	       <ul class="navigation" id="header">
+	            <li><a class="navigation_link" href="../main/main.html">Main</a></li>
+	            <li><a class="navigation_link" href="../info/info.html">Info</a></li>
+	            <li><a class="navigation_link" id="linkProfile" href="../autorization/autorization.html">Login</a></li>
+	        </ul>
+	</header>
+
+	<p class="text">To get more snacks, you need to log in!))</p>
+
+	<section class="autorizatorBlock">
+		<h2 class="text_autorizator">
+			Enter your username and password
+		</h2>
+
+		<p class="text_autorizator">(Do not forget to take into account the registers in the login)</p>
+
+		<section class="form_box" >
+			<input class="input_name input" id="input_name" type="text" name="input_name" placeholder="Login">
+			<input class="input_password input" id="input_password" name ="input_password" type="password" placeholder="Password">
+			<button class="submit input" id="submit"   onclick="validation()">Submit</button>
+		</section>
+	</section>
+
+	<footer class="footer">
+	    	 <a class="logo_footer" href="#header">
+	            <img src="../img/logo.png" alt="Главная" width="50" height="29">
+	        </a>
+	         <p class="text_footer">Made in Alexandr Losich.What would get to practice in JazzTeam</p>
+	        <p class="text_footer">@2019</p>
+    </footer>
+    <script src="./js/autorization.js"></script>
+</body>
+</html>

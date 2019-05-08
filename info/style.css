@@ -1,0 +1,54 @@
+@import "../style/footer.css";
+@import "../style/header.css";
+@import "../style/body.css";
+
+/*info*/
+.facts {
+    max-width: 1300px;
+    margin: 50px auto;
+    height: 420px;
+}
+
+.facts_text {
+    font-family: Verdana;
+}
+
+.facts_list {
+    width: 600px;
+    font-family: Arial;
+}
+
+/*footer*/
+
+
+@media (min-width: 1920px) {
+    .navigation_link {
+        font-size: 22px;
+    }
+    .footer_info {
+        height: 70px;
+    }
+
+    .text_footer {
+        font-size: 16px;
+    }
+
+    .facts {
+        margin-top: 100px;
+        height: 820px;
+    }
+
+    .text_quote {
+        font-size:24px;
+    }
+
+    .facts_list{
+        font-size:20px;
+    }
+}
+
+@media (max-width: 1024px){
+    .facts {
+    height: 340px;
+    }
+}
